@@ -14,7 +14,7 @@ def main():
     book_file = '/home/jasper/Documents/cincomil/El-Tunel.txt'
     print (book_file.split('/')[-1][:-4])
     text = read_book(book_file)
-    verbos = verbing('/home/jasper/Documents/cincomil/verbs.csv')
+    verbos = verbing('/home/jasper/Documents/cincomil/jehle_verb_database.csv')
     freq = get_freeky('/home/jasper/Documents/cincomil/5k_palabras.txt', verbos)
     counts, aires, entero = count_words_fast(text)
     unique, total = find_freq(counts, freq, aires)
