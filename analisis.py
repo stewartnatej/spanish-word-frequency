@@ -10,7 +10,7 @@ from collections import Counter
 import csv
 
 def main():
-    """haga la mierda"""
+    """haga la fiesta"""
     book_file = '/home/jasper/Documents/cincomil/El-Tunel.txt'
     print (book_file.split('/')[-1][:-4])
     text = read_book(book_file)
