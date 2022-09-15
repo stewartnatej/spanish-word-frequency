@@ -1,6 +1,6 @@
 """
 written on a snowy day
-inputs:
+prerequisites:
 - txt file of book
 - txt file of word frequencies
 - csv of verbs
